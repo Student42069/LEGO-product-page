@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+
+* {
+    font-family: "Domine", serif;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 228, 78);
+}
+
+@media (max-width:600px) {
+    header {
+        background-color: white;
+    }
+    
+}
+
+#hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#email {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 10px;
+    width: 19vw;
+}
+
+.btn {
+    font-size: 17px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 217, 0);
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#header-img {
+    height: 100%;
+    margin-left: 2vw;
+}
+
+nav > ul {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 3vw;
+    color: black;
+}
+
+a:visited {
+    color:blue;
+}
+
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px
+}
+
+#about {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60vw;
+    margin-top: 50px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#colors {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40vw;
+    margin-top: 50px;
+}
+
+.desc > p {
+    margin-top: 10px;
+}
